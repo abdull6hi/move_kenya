@@ -1,0 +1,352 @@
+body{
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1rem;
+    font-style: normal;
+
+}
+#hero{
+    width: 100%;
+    height:97vh;
+    background-image: url(./images/pexels-cottonbro-4568711.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.features{
+    width:80%;
+    height:700px;
+    background-color:white;
+    margin: auto;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    position: relative;
+    bottom:6rem;
+}
+#logo{
+    position: relative;
+    display:inline-block;
+    width:auto;
+    left:10px;
+}
+#navbar{
+    width:80%;
+    height:4rem;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    padding: 0;
+}
+.spanbackground{
+    display:flex;
+    width:70%;
+    height:4rem;
+    background-color: rgb(85,76,7, 0.4);
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 0;
+    justify-content: space-between;
+}
+
+.spanbackground a{
+    margin:auto;
+    display: inline-block;
+    padding:12px 20px;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+.spanbackground a:hover{
+    background-color: #FFC107;
+    border-radius: 20px;
+    color:black !important;
+}
+#navbar a.active{
+    background-color:#FFC107 ;
+    border-radius: 20px;
+    color:black
+}
+#navbar a{
+    color:white;
+    text-decoration: none;
+    
+}
+.getquote{
+    display: flex;
+    margin-left: auto;
+    background-color: #076C60;
+    border-radius: 20px;
+    width:auto;
+    align-items: center;
+
+}
+
+.getquote a{
+    padding:12px 20px;
+}
+.getquote:hover{
+    scale:1.05;
+    background-color: rgb(4, 77, 68);
+    transition: all 0.3s ease;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.slogan{
+    text-align: center;
+    position:relative;
+    top:20rem;
+}
+.line{
+    height:1px;
+    width:30%;
+    background-color: #DF1717;
+    margin: auto;
+}
+.grey{
+    color:#B8B8B8;
+}
+.yellow{
+    background-color: #FFC107 ;
+}
+.bold{
+    font-weight: bold;
+}
+.large{
+    font-size: 4rem;
+    margin:0;
+}
+.light{
+    font-weight: lighter;
+}
+.flex{
+    display:flex;
+}
+.book{
+    position: relative;
+    top:320px;
+    height:auto;
+    width:fit-content;
+
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.book a{
+    list-style: none;
+    text-decoration: none;
+    color:#6B1F11;
+    padding:20px 20px;
+}
+.book:hover{
+    scale:1.05;
+    background-color: #d4a107;
+    transition: all 0.3s ease;
+}
+.style{
+    width:12rem;
+    height:6rem;
+    margin: auto;
+    border-radius: 15px;
+    position:relative;
+    top:50px
+}
+.style2{
+    width:20rem;
+    height:4rem;
+    margin: auto;
+    border-radius: 10px;
+    position:relative;
+    background-color:#076C60 ;
+    bottom:30px;
+    padding:0;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.style2 p{
+    font-size:30px;
+}
+.partner{
+    display: flex;
+    justify-content: center;
+
+}
+.partner p{
+    color:black;
+    font-size: 3rem;
+   
+}
+.features-content{
+    width:100%;
+    height:30rem;
+    justify-content: space-around;
+    
+}
+.card{
+    display: flex;
+    width:30%;
+    height: 20rem;
+    border-radius: 20px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.card1{
+    background-image: url(./images/pexels-liza-summer-6348095.jpg);
+    background-size: cover;
+}
+.card2{
+    background-image: url(./images/pexels-tima-miroshnichenko-6169660.jpg);
+    background-size: cover;
+}
+.card3{
+    background-image: url(./images/pexels-ketut-subiyanto-4246062.jpg);
+    background-size: cover;
+}
+.card4{
+    background-image: url(./images/pexels-mibernaa-31916807.jpg);
+    background-size: cover;
+}
+.card5{
+    background-image: url(./images/quoteimage.jpg);
+    background-size: cover;
+}
+.card6{
+    background-image: url(./images/pexels-rdne-7362886.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.card-div{
+    position: relative;
+    top:4rem;
+    width:65%;
+    height:40%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition:all 0.3s ease;
+}
+.card-div p{
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.card-div:hover{
+    transform: translateY(-20px);
+    background-color: #FFC107;
+    cursor: pointer;
+}
+.trust{
+    width:80%;
+    height:700px;
+    margin: auto;
+    margin-top: 30rem;
+    background-image: url(./images/istockphoto-153710544-612x612.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+}
+.trust-divs{
+    width:40%;
+    height:90%;
+    position:relative;
+    top:3rem;
+    
+    
+}
+.tag{
+    width:50%;
+    height:8rem;
+    transition: all 0.3s ease;
+    margin-bottom: 7rem;
+}
+.hover-right:hover{
+    transform: translateX(1rem);
+}
+.hover-left:hover{
+    transform: translateX(-1rem);
+}
+
+.tag-image{
+    width:7rem;
+    height:7rem;
+    background-size: cover;
+}
+.tag-image1{
+    background-image: url(./images/delivery-truck1.png);
+}
+.tag-image2{
+    background-image: url(./images/calendar.png);
+}
+.tag-image3{
+    background-image: url(./images/map-pin.png);
+}
+.tag-image4{
+    background-image: url(./images/product.png);
+}
+.tag-image5{
+    background-image: url(./images/cooperation.png);
+}
+.tag-image6{
+    background-image: url(./images/customer-support.png);
+}
+.tag p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin: 1rem;
+}
+.tag1{
+    position:relative;
+    left:40%
+}
+.tag2{
+    position:relative;
+    left:20%
+}
+.tag3{
+    position:relative;
+    left:35%
+}
+.tag4{
+    position:relative;
+    left:10%;
+}
+.tag5{
+    position:relative;
+    left:30%;
+}
+.tag6{
+    position:relative;
+    left:20%;
+}
+.comment-section{
+    position:relative;
+    width:100%;
+    height:900px;
+}
+.comment-section img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    
+}
+.overlay{
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-color: rgba(70, 2, 2, 0.7);
+
+}
